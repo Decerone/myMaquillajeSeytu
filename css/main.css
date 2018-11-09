@@ -4,12 +4,12 @@ body {
 }
 
 .navbar {
-  border-bottom: #ffffff 3px solid;
+  border-bottom: #ffd104 3px solid;
   opacity: .7;
 }
 
 #home-section {
-  background: url('./img/IMG5.jpeg') no-repeat;
+  background: url('../img/FondoImg.jpg') no-repeat;
   min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
@@ -31,4 +31,18 @@ body {
   .home-inner {
     padding-top: 150px;
   }
+}
+#home-sectionEmprende {
+  background: url('../img/IMG11.jpeg') no-repeat;
+  min-height: 100vh;
+  //*background-size: cover;*//
+  background-attachment: fixed;
+}
+.dark-overlayEmprende {
+  background-color: rgba(0, 0, 0, 0.603);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
 }
