@@ -1,0 +1,73 @@
+/*********************************estilos hoja video**********************************************/
+*{
+    box-sizing: border-box;
+    border-style: 
+  }
+  body{
+      background-color: black;
+      margin:0;
+      font-size: 1rem;
+      line-height: 1.5;
+      color:#333;
+       }
+  .header{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      color:#fff;
+  }
+  .contentVideo{
+max-width: 49rem;
+padding-left: 1rem;
+padding-right: 1rem;
+margin: auto;
+text-align: center;
+  }
+  .header-video{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+     
+  }
+  .header-video video{
+      min-width: 100%;
+      height: 100%;
+  }
+  .header-overlay{
+height: 100vh;
+width: 100vw;
+position: absolute;
+top: 0;
+left: 0;
+background: #3d3e41;
+z-index: 1;
+opacity: .60;
+  }
+.header-contentVideo{
+    z-index: 2;
+}
+.header-contentVideo h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.header-contentVideo p{
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+}
+.btn{
+    background-color: mediumblue;
+    font-size: 1.2rem;
+    color:#fff;
+    padding: 1rem 2rem;
+    text-decoration:none;
+}
+@media(max-width: 960px){
+
+.contentVideo{
+    padding: 0 3rem 0 3rem;
+}
+
+}
