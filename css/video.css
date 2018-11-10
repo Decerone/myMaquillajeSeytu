@@ -1,8 +1,7 @@
 /*********************************estilos hoja video**********************************************/
 *{
     box-sizing: border-box;
-    border-style:none ;
-  }
+}
 
   body{
       background-color: black;
@@ -10,6 +9,7 @@
       font-size: 1rem;
       line-height: 1.5;
       color:#333;
+      overflow-x: hidden;
        }
   .header{
       height: 100vh;
@@ -65,9 +65,9 @@ opacity: .60;
     padding: 1rem 2rem;
     text-decoration:none;
 }
-@media(max-width: 960px){
-
+@media(max-width: 992px){
 .contentVideo{
+ 
     padding: 0 3rem 0 3rem;
 }
 
