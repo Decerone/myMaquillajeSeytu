@@ -33,8 +33,8 @@ text-align: center;
      
   }
   .header-video video{
-      min-width: 100vw;
-      height: 100vh;
+      min-width: 100%;
+      height: 100%;
   }
   .header-overlay{
 height: 100vh;
@@ -58,13 +58,7 @@ opacity: .60;
     display: block;
     padding-bottom: 2rem;
 }
-.btn{
-    background-color: mediumblue;
-    font-size: 1.2rem;
-    color:#fff;
-    padding: 1rem 2rem;
-    text-decoration:none;
-}
+
 @media(max-width: 992px){
 .contentVideo{
     padding: 0 3rem 0 3rem;
