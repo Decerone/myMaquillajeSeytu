@@ -1,8 +1,9 @@
 /*********************************estilos hoja video**********************************************/
 *{
     box-sizing: border-box;
-    border-style: 
+    border-style:none ;
   }
+
   body{
       background-color: black;
       margin:0;
