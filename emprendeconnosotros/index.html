@@ -22,13 +22,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="#home-section" class="nav-link">Home</a>
+              <a href="../index.html#home-section" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#info-section" class="nav-link">Servicios</a>
+              <a href="../index.html#info-section" class="nav-link">Servicios</a>
             </li>
             <li class="nav-item">
-              <a href="emprendeconnosotros/index.html" class="nav-link">Emprende con Nosotros</a>
+              <a href="#" class="nav-link">Emprende con Nosotros</a>
             </li>
             </ul>
         </div>
@@ -44,22 +44,32 @@
 <div class="header-contentVideo">
   <h1>Es el momento de cambiar tu estilo de vida</h1>
   <p>Las marca cosmética SeyTú te ofrece la oportunidad de iniciar tu negocio propio</p>
-<a href="#ventanaModal" class="btn btn-primary">Emprende con nosotros</a>
+<a href="#ventanaModal" class="btn btn-primary" data-toggle="modal" data-target="#ventanaModal">Emprende con nosotros</a>
 </div>
-<!--Ventana Modal-->
+  </header>
+  <!--Ventana Modal-->
 <div class="modal fade" id="ventanaModal">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="close">&times;
-          <h5 class="modal-title">Unos datos para Cambiar tu vida</h5>
-        </button>
-      </div>
+        <div class="modal-header">
+          <h5 class="modal-title">Unos datos para cambiar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="close">&times;
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group"><input type="text" class="form-control form-control-lg"   placeholder="email"></div>
+            <div class="form-group"><input type="text" class="form-control form-control-lg"   placeholder="Nombre"></div>
+            <div class="form-group"><input type="text" class="form-control form-control-lg"   placeholder="teléfono"></div>
+          </div>
+          <div class="modal-footer">
+            <input type="submit" value="Enviar" class="btn btn-secondary btn-block">
+          </form>
+        </div>
     </div>
   </div>
 </div>
-<!--Cierre de  Ventana Modal-->
-</header>
+    <!--Cierre de  Ventana Modal-->
    <!-- FOOTER -->
    <footer>
       <div class="container">
